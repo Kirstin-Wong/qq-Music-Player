@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/index.css">    
+    <script src="js/jquery-1.10.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/lyric.js"></script>
+    <script src="js/index.js"></script>
+    <title>qq音乐播放器</title>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="javascript:;"><img src="images/player_logo@2x.png" alt=""></a>
+    </div>
+    <div class="login">
+        <div class="guide">
+            <span>QQ音乐，千万高品质曲库尽享</span>
+            <a href="javascript:;">
+                <i class="download"></i>
+                客户端下载
+            </a>
+        </div>
+        <a href="javascript:;" class="avatar">
+            <img src="images/g.jpg" alt="">
+        </a>
+        <div class="choice">
+            <a href="javascript:;">Yoo</a>
+            <a href="javascript:;">设置</a>
+            <a href="javascript:;">退出</a>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="list">
+                <div class="btn">
+                    <ul class="clearfix">
+                        <li class="collect"><a href="javascript:;"><i></i>收藏</a></li>
+                        <li><a href="javascript:;"><i></i>添加到</a></li>
+                        <li><a href="javascript:;"><i></i>下载</a></li>
+                        <li class="del"><a href="javascript:;"><i></i>删除</a></li>
+                        <li><a href="javascript:;"><i></i>清空列表</a></li>
+                    </ul>
+                </div>
+                <div class="music">
+                    <ul class="header clearfix">
+                        <li class="checkbox"><i></i></li>
+                        <li class="number"></li>
+                        <li class="song">歌曲</li>
+                        <li class="singer">歌手</li>
+                        <li class="time">时长</li>
+                    </ul>
+                    <ul class="music_list">
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="container_right">
+                <div class="song_info">
+                    <a href="" class="song_info_pic">
+                        <img src="images/专辑封面.jpg" alt="">
+                    </a>
+                    <div class="song_info_name"><a href="javascript:;"></a></div>
+                    <div class="song_info_singer"><a href="javascript:;"></a></div>
+                    <div class="song_info_album"><a href="javascript:;"></a></div>
+                </div>  
+                <div class="lyric_containter">
+                    <ul class="song_lyric">
+                        
+                    </ul>
+                </div>             
+            </div>         
+        </div>
+        <div class="player">
+            <div class="player_container">
+                <a href="javascript:;" class="play_last"></a>
+                <a href="javascript:;" class="play_now"></a>
+                <a href="javascript:;" class="play_next"></a>
+                <div class="progress">
+                    <div class="progress_info">
+                        <div class="progress_info_title"></div>
+                        <div class="progress_info_time"></div>
+                    </div>
+                    <div class="pro">
+                        <div class="progress_line"></div>
+                        <div class="progress_point"></div>
+                    </div>
+                </div>            
+                <div class="player_button">
+                    <a href="javascript:;" class="music_mode" title="列表循环[O]"><span>模式</span></a>
+                    <a href="javascript:;" class="music_fav"><span>喜欢</span></a>
+                    <a href="javascript:;" class="music_down"><span>下载</span></a>
+                    <a href="javascript:;" class="music_comment"><span>评论</span></a>
+                    <a href="javascript:;" class="music_only"><span>纯净</span></a>
+                    <div class="column">
+                        <a href="javascript:;" class="column_icon"></a>
+                        <div class="column_control">
+                            <div class="column_line"></div>
+                            <div class="column_point"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="mask_bg"></div> 
+    <div class="mask"></div>
+    <audio src=""></audio>
+    <div class="message">
+        <i></i>
+        <h2></h2>
+    </div>
+</body>
+
+</html>
